@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    <title>Weather App</title>
+</head>
+<body>
+    <div class = "wrapper">
+        <div class="searchportion">
+            <input type="text" id="searchcity" class="search-bar" placeholder="Enter city name"/>
+            <button id="submit"><img src="search-icon.svg" height="20px" width="20px"></button>
+        </div>
+        <div class="info">
+            <pr><h1 class="city" id="city"><br></h1>
+        <h2 id="datenow" class="date">.....</h2></pr>
+        </div>
+         <div class="main">
+            
+            <div class="cards" id="weatherc">
+            <table>
+            <tr>
+            <th class="today">
+                <h2 class="day">TODAY</h2>
+                <div class="ctemp">
+                    <h2 class="temp1">...</h2>
+                    <span class="desc1">-</span>
+                    
+                </div>
+            </th>
+            <th>
+                
+                    <h2 class="day">DAY 2</h2>
+                    
+                    <div class="ctemp">
+                        
+                        <h2 class="temp2">...</h2>
+                        <span class="desc2">-</span>
+                        
+                    
+                    </div>
+            </th>
+            <th>
+                
+                <h2 class="day">DAY 3</h2>
+                
+                <div class="ctemp">
+                    <h2 class="temp3">...</h2>
+                    <span class="desc3">-</span>
+                    
+                  
+                </div>
+        </th>
+        <th>
+                
+            <h2 class="day">DAY 4</h2>
+            
+            <div class="ctemp">
+                <h2 class="temp4">...</h2>
+                <span class="desc4">-</span>
+                
+                
+                    
+            </div>
+    </th>
+    <th>
+                
+        <h2 class="day">DAY 5</h2>
+        <div class="ctemp">
+            <h2 class="temp5">...</h2>
+            <span class="desc5">-</span>
+            
+            
+                    
+        </div>
+</th>
+
+            </div>
+          </tr>
+        </table>
+        </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>

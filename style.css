@@ -1,0 +1,91 @@
+*
+{
+    overflow: hidden;
+}
+div{
+   display:inline-block;
+   padding:0px;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100px;
+    padding: 50px;
+    background-image: url("58378.webp");
+}
+
+.searchportion
+{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.searchportion input
+{  
+    width: 200px;
+    height:40px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:rgb(255, 255, 255,0.7);
+    
+}
+
+.searchportion button{
+    
+    height: 45px;
+    border-radius: 5px;
+    background-color:rgb(255, 255, 255,0.7);
+}
+
+.cards
+{
+border-radius: 10px;
+font-family: 'Staatliches', cursive;
+font-size: 20px;
+}
+table,th,tr
+{  
+    border-radius: 10px;
+     border-spacing: 50px;
+}
+th{ 
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 30px;
+    padding: 40px;
+}
+
+.info
+{   color: azure;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    font-family: 'Staatliches', cursive;
+}
+
+
+.city
+{   margin-bottom: 0px;
+    margin-top: 40px;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date
+{
+    font-size: 30px;
+}
+
+.day
+{
+    font-size: 40px;
+    font-family: 'Khula', sans-serif;
+}
