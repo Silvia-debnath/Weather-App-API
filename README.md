@@ -12,4 +12,5 @@ Create a weather application which displays the current weather conditions for a
  -JAVASCRIPT
  
  PREVIEW:
- ![image](https://user-images.githubusercontent.com/98155372/226939479-95c59815-313b-4067-ac14-0f666ddce4df.png)
+ ![image](https://user-images.githubusercontent.com/98155372/226974548-bfc68a31-5185-4fa6-862e-e306227d4407.png)
+
